@@ -1,6 +1,6 @@
 # Indexator
 
-Move 4dm files according to `folders.json`
+Move 4dm files according to `folders.json` (temporary because 4D will could access them after that)
 
 ## Usage
 

@@ -9,7 +9,7 @@ Move 4dm files according to `folders.json`
 To move all `.4dm` files from `Project/Sources/Classes` and `Project/Sources/Methods` to some of their folders according to group defined in 4D Explorer (ie. `folders.json`)
 
 ```4d
-$indexator:=cs.Indexator.new($Folder("/path/to/your/base/root/folder"))
+$indexator:=cs.Indexator.new(Folder("/path/to/your/base/root/folder"))
 $indexator.indexIntoFolders()
 ```
 
@@ -20,7 +20,7 @@ $indexator.indexIntoFolders()
 To reset previous indexation, this code will found any 4dm files into sub folders and will restore it into `Project/Sources/Classes` or `Project/Sources/Methods`.
 
 ```4d
-$indexator:=cs.Indexator.new($Folder("/path/to/your/base/root/folder"))
+$indexator:=cs.Indexator.new(Folder("/path/to/your/base/root/folder"))
 $indexator.deindexIntoRoot()
 ```
 
